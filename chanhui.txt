@@ -1,0 +1,162 @@
+{
+    components: {
+        "minecraft:attribute_modifiers": [
+            {
+                amount: 1.0E32d,
+                id: "minecraft:base_attack_damage",
+                operation: "add_value",
+                slot: "mainhand",
+                type: "minecraft:attack_damage"
+            },
+            {
+                amount: 1.0E32d,
+                id: "itemeditor:generated/1",
+                operation: "add_value",
+                slot: "mainhand",
+                type: "minecraft:max_health"
+            }
+        ],
+        "minecraft:custom_data": {
+            "VB|Protocol1_21_11To1_21_9|original_hashes": {
+                11: -1839821654,
+                16: -721926151,
+                18: -731300055,
+                21: -1019818302,
+                36: -1307422628,
+                4: -982207288,
+                6: -1880459664,
+                97: -875126230,
+                id: 926,
+                removed: [I;]
+            },
+            "VV|custom_data": 1b
+        },
+        "minecraft:custom_name": {
+            bold: 1b,
+            color: "red",
+            italic: 0b,
+            obfuscated: 0b,
+            strikethrough: 0b,
+            text: "忏悔",
+            underlined: 0b
+        },
+        "minecraft:death_protection": {
+            death_effects: [
+                {
+                    type: "minecraft:clear_all_effects"
+                },
+                {
+                    effects: [
+                        {
+                            amplifier: 1b,
+                            duration: 900,
+                            id: "minecraft:regeneration",
+                            show_icon: 1b
+                        },
+                        {
+                            amplifier: 1b,
+                            duration: 100,
+                            id: "minecraft:absorption",
+                            show_icon: 1b
+                        },
+                        {
+                            duration: 800,
+                            id: "minecraft:fire_resistance",
+                            show_icon: 1b
+                        }
+                    ],
+                    type: "minecraft:apply_effects"
+                }
+            ]
+        },
+        "minecraft:enchantment_glint_override": 1b,
+        "minecraft:enchantments": {
+            "minecraft:knockback": 255,
+            "minecraft:looting": 255,
+            "minecraft:power": 255,
+            "minecraft:sharpness": 255,
+            "minecraft:sweeping_edge": 255
+        },
+        "minecraft:lore": [
+            {
+                bold: 1b,
+                color: "red",
+                italic: 0b,
+                text: "忏悔罪过"
+            },
+            {
+                bold: 1b,
+                color: "red",
+                italic: 0b,
+                text: "忏悔昨天"
+            },
+            {
+                bold: 1b,
+                color: "red",
+                italic: 0b,
+                text: "忏悔所有..."
+            },
+            {
+                italic: 0b,
+                text: ""
+            },
+            {
+                extra: [
+                    {
+                        bold: 1b,
+                        color: "red",
+                        text: "忏悔"
+                    },
+                    {
+                        bold: 1b,
+                        color: "red",
+                        obfuscated: 1b,
+                        text: "LaoDay_"
+                    }
+                ],
+                italic: 0b,
+                text: ""
+            },
+            {
+                italic: 0b,
+                text: ""
+            },
+            {
+                color: "gray",
+                italic: 0b,
+                text: "在主手时："
+            },
+            {
+                extra: [
+                    {
+                        bold: 1b,
+                        color: "red",
+                        text: " 忏悔"
+                    },
+                    " ",
+                    {
+                        color: "dark_green",
+                        text: "攻击伤害"
+                    }
+                ],
+                italic: 0b,
+                text: ""
+            },
+            {
+                italic: 0b,
+                text: ""
+            }
+        ],
+        "minecraft:painting/variant": "minecraft:fire",
+        "minecraft:tooltip_display": {
+            hidden_components: [
+                "minecraft:attribute_modifiers",
+                "minecraft:unbreakable",
+                "minecraft:enchantments"
+            ]
+        },
+        "minecraft:unbreakable": {}
+    },
+    count: 1,
+    id: "minecraft:golden_sword"
+}
